@@ -1,10 +1,11 @@
-name: Upload data
+name: source
 
 on:
   pull_request:
     types: [opened, reopened, edited, synchronize]
     branches:
       - main
+
 
 jobs:
   upload:
